@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <!-- Bootstrap  CSS Link -->
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.css" />
+    <!-- Bootstrap JS Link -->
+    <script src="/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <!-- Bootstrap Icons Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <!-- Custom CSS Link  -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg px-4 py-3 custom-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="logo">
+          <img class="logo" src="/img/omnifood-logo.png" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler custom-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="custom-toggler-icon">
+            <i class="bi bi-list"></i>
+          </span>
+        </button>
+        <div
+          class="collapse navbar-collapse custom-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item me-4 custom-nav-item">
+              <a class="nav-link custom-nav-link" href="#">How it works</a>
+            </li>
+            <li class="nav-item me-lg-3 me-xl-4 custom-nav-item">
+              <a class="nav-link custom-nav-link" href="#">Meals</a>
+            </li>
+            <li class="nav-item me-lg-3 me-xl-4 custom-nav-item">
+              <a class="nav-link custom-nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item me-lg-3 me-xl-4 custom-nav-item">
+              <a class="nav-link custom-nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item custom-nav-item">
+              <a class="nav-link custom-nav-link d-inline-block" href="#">
+                Try for free</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="container-fluid mt-5 py-5 px-lg-5 section-hero">
+      <div
+        class="row align-items-center gy-5 gy-lg-0 gx-xl-5 justify-content-center justify-content-lg-start"
+      >
+        <div class="col-12 col-lg-6">
+          <h1 class="text-center text-lg-start mb-5 custom-heading">
+            A healthy meal delivered to your door, every single day
+          </h1>
+          <p class="text-center text-lg-start mb-5 custom-paragraph">
+            The smart 365-days-per-year food subscription that will make you eat
+            healthy again. Tailored to your personal tastes and nutritional
+            needs.
+          </p>
+          <div class="row justify-content-center justify-content-lg-start mb-5">
+            <div class="col-auto">
+              <a class="btn custom-btn-link" href="#" role="button">
+                Start eating well
+              </a>
+            </div>
+            <div class="col-auto">
+              <a class="btn custom-btn-link" href="#" role="button"
+                >Learn more ↓</a
+              >
+            </div>
+          </div>
+          <div
+            class="row justify-content-center justify-content-lg-start align-items-center"
+          >
+            <div class="col-auto custom-customer-imgs">
+              <img src="/img/customers/customer-1.jpg" alt="Customer" />
+              <img src="/img/customers/customer-2.jpg" alt="Customer" />
+              <img src="/img/customers/customer-3.jpg" alt="Customer" />
+              <img src="/img/customers/customer-4.jpg" alt="Customer" />
+              <img src="/img/customers/customer-5.jpg" alt="Customer" />
+              <img src="/img/customers/customer-6.jpg" alt="Customer" />
+            </div>
+            <div class="col-auto align-self-center">
+              <p class="mb-0">250,000+ meals delivered last year!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <img class="img-fluid" src="/img/hero.png" alt="Hero Image" />
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------  AS FEATURED IN - Section 3 ----------------------------->
+
+    <section class="container mt-5">
+      <!-- Row 1 -->
+      <div class="row mb-4 justify-content-center">
+        <div class="col-auto">
+          <span>AS FEATURED IN</span>
+        </div>
+      </div>
+      <!-- Row 2 -->
+      <div class="row justify-content-between align-items-center">
+        <div class="col-2">
+          <img
+            class="img-fluid"
+            src="/img/logos/business-insider.png"
+            alt="Featured"
+          />
+        </div>
+        <div class="col-2">
+          <img class="img-fluid" src="/img/logos/forbes.png" alt="Featured" />
+        </div>
+        <div class="col-2">
+          <img
+            class="img-fluid"
+            src="/img/logos/techcrunch.png"
+            alt="Featured"
+          />
+        </div>
+        <div class="col-2">
+          <img
+            class="img-fluid"
+            src="/img/logos/the-new-york-times.png"
+            alt="Featured"
+          />
+        </div>
+        <div class="col-2">
+          <img
+            class="img-fluid"
+            src="/img/logos/usa-today.png"
+            alt="Featured"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------- HOW IT WORKS Section 4  ------------------------------>
+
+    <section class="container-lg mt-5" style="background-color: bisque">
+      <!-- Row 1 -->
+      <div class="row mb-5">
+        <div class="col text-center text-lg-start">
+          <span class="d-block mb-2 custom-how-title">How it works</span>
+          <span class="display-5 custom-how-subtitle"
+            >Your daily dose of health in 3 simple steps
+          </span>
+        </div>
+      </div>
+      <!-- Row 2 -->
+      <div
+        class="row mb-5 gy-5 gy-md-0 align-items-md-center justify-content-around justify-content-lg-between"
+      >
+        <div class="col-md-6">
+          <span class="d-block mb-2 custom-step-no">01</span>
+          <span class="d-block mb-4 custom-step-title"
+            >Tell us what you like (and what not)</span
+          >
+          <p class="custom-step-description">
+            Never again waste time thinking about what to eat! Omnifood AI will
+            create a 100% personalized weekly meal plan just for you. It makes
+            sure you get all the nutrients and vitamins you need, no matter what
+            diet you follow!
+          </p>
+        </div>
+        <div class="col-3 mx-lg-auto">
+          <img class="img-fluid" src="/img/app/app-screen-1.png" alt="App" />
+        </div>
+      </div>
+      <!-- Row 3 -->
+      <div
+        class="row mb-5 gy-5 gy-md-0 align-items-md-center justify-content-around justify-content-lg-start"
+      >
+        <div class="col-md-6 order-md-2">
+          <span class="d-block mb-2 custom-step-no">02</span>
+          <span class="d-block mb-4 custom-step-title"
+            >Approve your weekly meal plan
+          </span>
+          <p class="custom-step-description">
+            Once per week, approve the meal plan generated for you by Omnifood
+            AI. You can change ingredients, swap entire meals, or even add your
+            own recipes.
+          </p>
+        </div>
+        <div class="col-3 order-md-1 mx-lg-auto">
+          <img class="img-fluid" src="/img/app/app-screen-3.png" alt="App" />
+        </div>
+      </div>
+      <!-- Row 4 -->
+      <div
+        class="row gy-5 gy-md-0 align-items-md-center justify-content-around justify-content-lg-start"
+      >
+        <div class="col-md-6">
+          <span class="d-block mb-2 custom-step-no">03</span>
+          <span class="d-block mb-4 custom-step-title"
+            >Receive meals at convenient time
+          </span>
+          <p class="custom-step-description">
+            Best chefs in town will cook your selected meal every day, and we
+            will deliver it to your door whenever works best for you. You can
+            change delivery schedule and address daily!
+          </p>
+        </div>
+        <div class="col-3 mx-lg-auto">
+          <img class="img-fluid" src="/img/app/app-screen-3.png" alt="App" />
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------- MEALS Section 5 ------------------------------>
+    <section class="container-xl mt-5" style="background-color: bisque">
+      <!-- Row 1 -->
+      <div class="row mb-5">
+        <div class="col-xl-12">
+          <span class="d-block text-center">MEALS</span>
+          <span class="d-block text-center"
+            >Omnifood AI chooses from 5,000+ recipes
+          </span>
+        </div>
+      </div>
+      <!-- Row 2 -->
+      <div class="row mb-5 gy-5 gy-xl-0 justify-content-sm-center">
+        <div class="col-sm-9 col-md-5 col-xl-4">
+          <div class="card" style="width: 100%">
+            <img src="/img/meals/meal-1.jpg" class="card-img-top" alt="Meal" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-9 col-md-5 col-xl-4">
+          <div class="card" style="width: 100%">
+            <img src="/img/meals/meal-2.jpg" class="card-img-top" alt="Meal" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-9 col-md-5 col-xl-4">
+          <div class="card" style="width: 100%">
+            <img src="/img/meals/meal-2.jpg" class="card-img-top" alt="Meal" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Row 3 -->
+      <div class="row">
+        <div class="col text-center">
+          <a class="btn" role="button" href="#">See all recipes ~</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

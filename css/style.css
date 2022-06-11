@@ -1,0 +1,115 @@
+/* * {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+} */
+
+/* This is CSS for the header */
+
+.logo {
+  height: 22px;
+}
+
+.custom-navbar {
+  background-color: #fdf2e9;
+}
+
+.custom-nav-link:link,
+.custom-nav-link:visited {
+  color: black;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.custom-nav-link:hover,
+.custom-nav-link:active {
+  color: rgb(225, 142, 34);
+}
+
+.custom-nav-item:last-child .custom-nav-link {
+  background-color: rgb(225, 142, 34);
+  color: white;
+  padding: 0.5rem 1.4rem;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.custom-nav-item:last-child .custom-nav-link:hover {
+  background-color: rgb(246, 143, 8);
+}
+
+.custom-toggler {
+  background-color: #fff7f1;
+  border: 2px solid rgb(156, 121, 75);
+}
+
+.custom-toggler-icon {
+  font-size: 2rem;
+  color: rgb(246, 143, 8);
+}
+
+/* Hero Section */
+
+.section-hero {
+  background-color: bisque;
+}
+
+.custom-heading {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.custom-paragraph {
+  font-size: 1.2rem;
+}
+
+.custom-btn-link:link,
+.custom-btn-link:visited {
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: rgb(225, 142, 34);
+  color: white;
+  padding: 0.5rem 1.4rem;
+  border-radius: 9px;
+}
+
+.custom-btn-link:hover,
+.custom-btn-link:active {
+  background-color: rgb(239, 155, 45);
+}
+
+.custom-customer-imgs img {
+  width: 2.8rem;
+  border-radius: 50%;
+  margin-right: -1.2rem;
+  border: 2px solid wheat;
+}
+
+.custom-customer-imgs img:last-child {
+  margin-right: 0;
+}
+
+/* How it works Section 4 */
+
+.custom-how-title {
+  font-size: 1.5rem;
+}
+
+.custom-how-subtitle {
+  font-weight: 700;
+}
+
+.custom-step-no {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #ddd;
+}
+
+.custom-step-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.custom-step-description {
+  font-size: 1.1rem;
+}
