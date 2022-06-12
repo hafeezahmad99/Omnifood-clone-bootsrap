@@ -89,7 +89,7 @@
   margin-right: 0;
 }
 
-/* How it works Section 4 */
+/* How it works Section 3 */
 
 .custom-how-title {
   font-size: 1.5rem;
@@ -111,5 +111,156 @@
 }
 
 .custom-step-description {
+  font-size: 1.1rem;
+}
+
+/* <!------------------------------- MEALS Section 4 ------------------------------> */
+
+/* ROW 1  */
+
+.custom-about-meal-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #cf711f;
+  letter-spacing: 0.75px;
+}
+
+.custom-about-meal-subtitle {
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+/* ROW 2  */
+
+.custom-card {
+  width: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.custom-meal-tag {
+  padding: 0.2rem 0.6rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.custom-tag-1 {
+  background-color: #51cf66;
+}
+
+.custom-tag-2 {
+  background-color: yellow;
+}
+
+.custom-tag-3 {
+  background-color: rgb(255, 167, 167);
+}
+
+.custom-card-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.custom-meal-icon,
+.custom-diet-icon,
+.custom-pricing-icon {
+  color: #e67e22;
+  font-size: 1.2rem;
+}
+
+.custom-meal-spec,
+.custom-diet-spec {
+  font-size: 1.1rem;
+}
+
+/* Row 3 */
+
+.custom-recipes-link:link,
+.custom-recipes-link:visited {
+  color: #e67e22;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-bottom: 2px solid brown;
+  padding-bottom: 0.1rem;
+}
+
+.custom-recipes-link:hover,
+.custom-recipes-link:active {
+  color: #cf711f;
+}
+
+/* <!---------------------- Testimonials Section 5 ----------------------------->  */
+
+.custom-testimonial-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #cf711f;
+}
+
+.custom-testimonial-subtitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* <!------------------------------- Pricing Section 6 ------------------------------> */
+
+/* Row 1 */
+
+.custom-pricing-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #cf711f;
+}
+
+.custom-pricing-subtitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Row 2 */
+
+.custom-pricing-name {
+  color: #cf711f;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.custom-pricing-value {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.custom-pricing-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #6f6f6f;
+}
+
+/* Row 3 */
+
+.custom-tax-text {
+  font-size: 1.2rem;
+}
+
+/* <!----------------------------- Section 7 Why us ----------------------------> */
+
+.custom-why-us-icon {
+  font-size: 1.8rem;
+  color: #e67e22;
+  background-color: #fdf2e9;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.custom-why-us-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.custom-why-us-description {
   font-size: 1.1rem;
 }
