@@ -264,3 +264,85 @@
 .custom-why-us-description {
   font-size: 1.1rem;
 }
+
+/* <!----------------------------- Section 8 Sign Up ----------------------------> */
+
+.custom-sign-up-container {
+  border-radius: 0.8rem;
+}
+
+.custom-form-title {
+  font-weight: bold;
+  color: black;
+}
+
+.custom-form-description {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.custom-form-label {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.custom-form-input {
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 0.6rem;
+  padding: 0.5rem 1rem;
+  background-color: #fdf2e9;
+}
+
+.custom-sign-up-btn {
+  font-size: 1.1rem;
+  font-weight: 700;
+  background-color: #45260a;
+  color: white;
+  border-radius: 0.6rem;
+  padding: 0.5rem 1rem;
+}
+
+.custom-sign-up-btn:hover {
+  background-color: white;
+  color: #333;
+}
+
+/********************************** Footer  ****************************************/
+
+.custom-footer-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.custom-footer-link:link,
+.custom-footer-link:visited {
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+}
+
+.custom-footer-link:hover,
+.custom-footer-link:active {
+  color: rgb(110, 102, 102);
+}
+
+/* Media Queries */
+
+/* 1199px */
+
+@media (max-width: 74.9375em) {
+  html {
+    /* 15px */
+    font-size: 93.75%;
+  }
+}
+
+/* 767px */
+
+@media (max-width: 47.9375em) {
+  html {
+    /* 14px */
+    font-size: 87.5%;
+  }
+}
